@@ -5,6 +5,7 @@ authors = ["ferris <jake@fusetools.com>"]
 description = "Standalone audio package for the emu project."
 homepage = "https://github.com/emu-rs/emu"
 repository = "https://github.com/emu-rs/emu-audio"
+keywords = ["emu", "emulator", "audio"]
 license = "BSD-2-Clause"
 
 [dependencies]
