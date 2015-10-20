@@ -1,0 +1,18 @@
+language: rust
+rust:
+    - stable
+    - beta
+    - nightly
+matrix:
+    allow_failures:
+        - rust: beta
+        - rust: nightly
+
+os:
+    - osx
+notifications:
+    email:
+        - jake@fusetools.com
+before_script:
+    - rustc --version
+    - cargo --version
